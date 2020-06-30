@@ -12,10 +12,10 @@ Excel sheet -  https://docs.google.com/spreadsheets/d/1DvY8Vs6Di9mnZn1djoVCSVnlf
 4. Create a new branch for your task - git checkout -b task-name-here
 5. Write your codes, add your files in the correct locations
 6. Stage files for commit - git add .
-7. Commit changes - git commit -m 'commit message here'
-8. Push changes to your new branch - git push origin branch-name-here
-9. Head to your forked repository and create a pull request
-10. Welldone!
+7. Commit changes - ```git commit -m 'commit message here'```
+8. Pull latest state from upstream - ```git pull upstream master```
+9. Push changes to your new branch - ```git push origin branch-name-here```
+10. Head to your forked repository and create a pull request
 
 ### Rules and guides
 
