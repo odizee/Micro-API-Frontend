@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+background-color: black;
+display: flex;
+justify-content: space-between;
+height: 70px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+width: 30%;
+margin-top: 25px;
+margin-left: 25px;
+}
+.logo1{
+width: 50%;
+margin-top: 20px;
+}
+.nav-link{
+    color: white !important;
+    margin-top: 17px;
+padding-right: 35px;
+}
+h1{
+font-size: 1.5em !important;
+font-weight: bold !important;
+margin-top: 20px;
+}
+.card{
+margin-bottom: 20px;
+text-align: center;
+}
+h4{
+    font-weight: bold;
+}
+.image1{
+    width: 15%;
+    margin-top: 10px;
+}
+.image2{
+    width: 31%;
+}
+.image3{
+width: 13%;
+margin-top: 10px;
+}
+.image4{
+width: 12%;
+margin-top: 10px;
+}
+.btn{
+width: 35%;
+}
+
+@media screen and (min-width: 1024px){
+.logo{
+    width: 20%;
+    margin-left: 35px;
+}
+.btn{
+width: 50%;
+}
+}
