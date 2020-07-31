@@ -53,7 +53,7 @@
 
 .form-control {
     position: relative;
-    padding-right: 100px;
+    padding-right: 10px;
     height: 60px;
     background: #FFFFFF;
     border: 0.5px solid #BDBDBD;
@@ -62,6 +62,9 @@
     
     
 }
+
+
+    
 
 .form-group {
     margin-bottom: 29.53px;
@@ -147,7 +150,8 @@ a.deco {
 @media screen and (max-width: 767px) {
     
     .form {
-        width: 60%
+        width: 90%;
+        
     }
     
 /***********************************END MEDIA QUERIES 767PX-MAX-WIDTH***************************************/
@@ -166,8 +170,8 @@ a.deco {
     }
     .pass label{
         position: relative;
-        display: grid;
-        right: 90px;
+        display: block;
+        right: 40vw;
         top: 21px;
         width: 150px;
         margin-bottom: 20px;
@@ -197,7 +201,16 @@ a.deco {
 }
 
 /***********************************END MEDIA QUERIES 500PX-MAX-WIDTH***************************************/
-
+    
+/***********************************MEDIA QUERIES 450PX-MAX-WIDTH***************************************/
+@media screen and (max-width: 450px) {
+    .f-p{
+        position: relative;
+        margin-left: 20vw;
+    }
+    
+    }
+/***********************************MEDIA QUERIES 350PX-MAX-WIDTH***************************************/
 @media screen and (max-width: 350px) { 
     .ps {
         position: relative;
@@ -219,6 +232,10 @@ a.deco {
         font-size: 12px;
     }
     
+    .f-p{
+        position: relative;
+        margin-left: -10vw;
+    }
         .form-h h1{
         font-size: 34px;
     }
